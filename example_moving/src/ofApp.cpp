@@ -47,7 +47,7 @@ void ofApp::draw(){
     
     ofSetColor(255);
     ofDrawBitmapString(ofToString(ofGetFrameRate(), 4) + "fps", 10, 20);
-    ofDrawBitmapString("particle num = " + ofToString(vboPartciles->numParticles, 0), 10, 35);
+    ofDrawBitmapString("particle num = " + ofToString(vboPartciles->numParticles+1, 0), 10, 35);
     ofDrawBitmapString("[f] key : toggle fullscreen", 10, 50);
 }
 
